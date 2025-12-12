@@ -21,7 +21,7 @@ const audioFiles: AudioFile[] = [
     speaker: "Dr. Sarah Chen",
     duration: "12:34",
     date: "March 15, 2024",
-    audioUrl: "/audio-waveform.png",
+    audioUrl: "/1.mp3",
     description: "A deep dive into the evolving landscape of AI technology and its impact on society",
     transcript: `Welcome everyone to today's discussion on artificial intelligence. I'm Dr. Sarah Chen, and I've been researching AI for over fifteen years now.
 
@@ -39,7 +39,7 @@ Looking ahead, I believe we're only scratching the surface of what's possible. T
     speaker: "Prof. Michael Rodriguez",
     duration: "15:22",
     date: "March 10, 2024",
-    audioUrl: "/audio-waveform.png",
+    audioUrl: "/2.mp3",
     description: "Exploring practical approaches to environmental sustainability and climate action",
     transcript: `Good afternoon. I'm Professor Michael Rodriguez, and today I want to talk about one of the most pressing issues of our time: climate change.
 
