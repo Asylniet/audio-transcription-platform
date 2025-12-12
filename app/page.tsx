@@ -1,20 +1,31 @@
 import { AudioTranscriptionList } from "@/components/audio-transcription-list"
+import { Sidebar } from "@/components/sidebar"
+import { Header } from "@/components/header"
+import { StatsCards } from "@/components/stats-cards"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
-      <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="mb-12 text-center">
-          <h1 className="mb-3 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-            Audio Transcriptions
-          </h1>
-          <p className="text-balance text-lg text-muted-foreground">
-            Browse and listen to audio recordings with synchronized transcripts
-          </p>
-        </div>
+    <div className="flex min-h-screen bg-background">
+      <Sidebar />
 
-        <AudioTranscriptionList />
+      <div className="flex flex-1 flex-col lg:pl-64">
+        <Header />
+
+        <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
+            <div className="mb-8">
+              <h1 className="mb-2 text-3xl font-semibold tracking-tight text-foreground">Transcriptions</h1>
+              <p className="text-muted-foreground">Manage and review your audio transcriptions</p>
+            </div>
+
+            <StatsCards />
+
+            <div className="mt-8">
+              <AudioTranscriptionList />
+            </div>
+          </div>
+        </main>
       </div>
-    </main>
+    </div>
   )
 }
