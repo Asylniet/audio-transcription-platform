@@ -129,13 +129,13 @@ export function AudioTranscriptionItem({ audio, isExpanded, onToggle }: AudioTra
                 </div>
               </div>
 
-              {/* Hidden audio element - using a silent placeholder */}
               <audio
                 ref={audioRef}
                 onTimeUpdate={handleTimeUpdate}
                 onLoadedMetadata={handleLoadedMetadata}
                 onEnded={() => setIsPlaying(false)}
-                src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA="
+                src={audio.audioUrl}
+                preload="metadata"
               />
             </div>
 

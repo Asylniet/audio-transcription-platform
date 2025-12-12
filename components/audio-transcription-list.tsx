@@ -21,7 +21,7 @@ const audioFiles: AudioFile[] = [
     speaker: "Dr. Sarah Chen",
     duration: "12:34",
     date: "March 15, 2024",
-    audioUrl: "/1.mp3",
+    audioUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/public/1.mp3",
     description: "A deep dive into the evolving landscape of AI technology and its impact on society",
     transcript: `Welcome everyone to today's discussion on artificial intelligence. I'm Dr. Sarah Chen, and I've been researching AI for over fifteen years now.
 
@@ -39,7 +39,7 @@ Looking ahead, I believe we're only scratching the surface of what's possible. T
     speaker: "Prof. Michael Rodriguez",
     duration: "15:22",
     date: "March 10, 2024",
-    audioUrl: "/2.mp3",
+    audioUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/public/2.mp3",
     description: "Exploring practical approaches to environmental sustainability and climate action",
     transcript: `Good afternoon. I'm Professor Michael Rodriguez, and today I want to talk about one of the most pressing issues of our time: climate change.
 
@@ -59,7 +59,7 @@ The challenge is enormous, but so is human ingenuity. If we act decisively and w
     speaker: "Emma Williams",
     duration: "9:47",
     date: "March 5, 2024",
-    audioUrl: "/audio-waveform.png",
+    audioUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/public/1.mp3",
     description: "Understanding the principles and philosophy behind minimalist design",
     transcript: `Hello, I'm Emma Williams, a designer and minimalism advocate. Today I want to share my thoughts on minimalist design and why I believe it's more relevant than ever.
 
@@ -79,7 +79,7 @@ Whether in graphic design, product design, or interior spaces, minimalist princi
     speaker: "Dr. James Park",
     duration: "18:15",
     date: "February 28, 2024",
-    audioUrl: "/audio-waveform.png",
+    audioUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/public/2.mp3",
     description: "An accessible introduction to quantum computing and its potential applications",
     transcript: `Hi everyone, I'm Dr. James Park, and I specialize in quantum computing. I know quantum physics can sound intimidating, but I want to make this as accessible as possible.
 
