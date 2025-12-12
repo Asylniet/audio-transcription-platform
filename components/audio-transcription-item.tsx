@@ -80,6 +80,7 @@ export function AudioTranscriptionItem({ audio, isExpanded, onToggle }: AudioTra
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
               <span className="flex items-center gap-1">
                 <Volume2 className="h-3 w-3" />
+                {audio.speaker}
               </span>
               <span>{audio.duration}</span>
               <span>{audio.date}</span>

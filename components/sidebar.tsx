@@ -47,7 +47,7 @@ export function Sidebar() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-foreground">
                 <FileAudio className="h-5 w-5 text-background" />
               </div>
-              <span className="text-lg font-semibold">Audio Transcript</span>
+              <span className="text-lg font-semibold">AudioScribe</span>
             </div>
           </div>
 
