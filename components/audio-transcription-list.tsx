@@ -38,42 +38,42 @@ const audioFiles: AudioFile[] = [
     duration: "9:47",
     date: "11.12.2025",
     audioUrl:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/public/1.mp3",
+      "/images/git-blob-prj-dcs1b45rqyyp03xcgj5238zj0rio-bpq2faasbmdjo6wvf7be-r-public-1.mp3",
     description: "О поступлении заказа на разработку сайта",
-    transcript: `Hello, I'm Emma Williams, a designer and minimalism advocate. Today I want to share my thoughts on minimalist design and why I believe it's more relevant than ever.
+    transcript: `Привет, я Эмма Уильямс, дизайнер и сторонник минимализма. Сегодня я хочу поделиться своими мыслями о минималистичном дизайне и о том, почему он актуален как никогда.
 
-Minimalism isn't about having less for the sake of having less. It's about intentionality. It's about removing the unnecessary so that the necessary can speak. In design, this means stripping away decorative elements that don't serve a functional purpose.
+Минимализм — это не про то, чтобы иметь меньше ради меньшего. Это про осознанность. Это про удаление ненужного, чтобы необходимое могло говорить само за себя. В дизайне это означает избавление от декоративных элементов, которые не несут функциональной нагрузки.
 
-The minimalist approach has roots in various cultural traditions, from Japanese aesthetics to Scandinavian design. What these traditions share is a respect for simplicity, functionality, and the inherent beauty of materials and forms.
+Минималистский подход уходит корнями в различные культурные традиции — от японской эстетики до скандинавского дизайна. Эти традиции объединяет уважение к простоте, функциональности и врожденной красоте материалов и форм.
 
-In our current era of information overload and constant stimulation, minimalist design provides a sense of calm and clarity. White space isn't empty space—it's breathing room for the eye and mind. Clean typography, limited color palettes, and thoughtful composition guide the viewer's attention to what truly matters.
+В нашу эпоху информационной перегрузки и постоянной стимуляции минималистичный дизайн дарит ощущение спокойствия и ясности. Пустое пространство — это не пустота, это возможность отдохнуть глазу и разуму. Чистая типографика, ограниченные цветовые палитры и продуманная композиция направляют внимание зрителя на то, что действительно важно.
 
-But minimalism isn't a one-size-fits-all solution. The key is finding the right balance for your specific context and audience. Sometimes bold and complex designs are exactly what's needed. The goal is always to communicate effectively and create meaningful experiences.
+Но минимализм — не универсальное решение. Ключ в том, чтобы найти правильный баланс для вашего конкретного контекста и аудитории. Иногда смелый и сложный дизайн — это именно то, что нужно. Цель всегда — эффективно коммуницировать и создавать значимый опыт.
 
-Whether in graphic design, product design, or interior spaces, minimalist principles can help us create work that's timeless, elegant, and human-centered. It's not about following a trend—it's about thoughtful decision-making in everything we create.`,
+Будь то графический дизайн, продуктовый дизайн или интерьеры — принципы минимализма помогают создавать работы, которые вне времени, элегантны и ориентированы на человека. Это не следование тренду — это осознанное принятие решений во всем, что мы создаем.`,
   },
   {
     id: "4",
-    title: "Understanding Quantum Computing",
+    title: "Введение в квантовые вычисления",
     duration: "18:15",
-    date: "February 28, 2024",
+    date: "28 февраля 2024",
     audioUrl:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/public/2.mp3",
+      "/images/git-blob-prj-dcs1b45rqyyp03xcgj5238zj0rio-4dkr-goiyhkbeamy26aiao-public-2.mp3",
     description:
-      "An accessible introduction to quantum computing and its potential applications",
-    transcript: `Hi everyone, I'm Dr. James Park, and I specialize in quantum computing. I know quantum physics can sound intimidating, but I want to make this as accessible as possible.
+      "Доступное введение в квантовые вычисления и их потенциальные применения",
+    transcript: `Привет всем, я доктор Джеймс Парк, и я специализируюсь на квантовых вычислениях. Я знаю, что квантовая физика может звучать пугающе, но я хочу сделать это максимально доступным.
 
-Classical computers, the ones we use every day, process information in bits—ones and zeros. They're incredibly powerful, but they have limitations. Quantum computers work differently. They use quantum bits, or qubits, which can exist in multiple states simultaneously thanks to a property called superposition.
+Классические компьютеры, которые мы используем каждый день, обрабатывают информацию в битах — единицах и нулях. Они невероятно мощные, но имеют ограничения. Квантовые компьютеры работают иначе. Они используют квантовые биты, или кубиты, которые могут существовать в нескольких состояниях одновременно благодаря свойству, называемому суперпозицией.
 
-Think of it like this: if a classical bit is like a coin that's either heads or tails, a qubit is like a coin spinning in the air—it's both heads and tails until it lands. This allows quantum computers to process vast amounts of possibilities at once.
+Представьте это так: если классический бит — это монета, которая либо орел, либо решка, то кубит — это монета, вращающаяся в воздухе — она одновременно и орел, и решка, пока не упадет. Это позволяет квантовым компьютерам обрабатывать огромное количество возможностей одновременно.
 
-Another key principle is entanglement, where qubits become connected in ways that have no classical equivalent. When qubits are entangled, measuring one instantly affects the others, regardless of distance. Einstein famously called this "spooky action at a distance."
+Другой ключевой принцип — запутанность, когда кубиты связываются способами, не имеющими классического эквивалента. Когда кубиты запутаны, измерение одного мгновенно влияет на другие, независимо от расстояния. Эйнштейн знаменито назвал это "жутким действием на расстоянии".
 
-So what can we actually do with quantum computers? They have the potential to revolutionize cryptography, drug discovery, financial modeling, and optimization problems. For example, they could help us design new materials, simulate molecular interactions, or solve complex logistical challenges.
+Так что же мы можем делать с квантовыми компьютерами? Они способны революционизировать криптографию, разработку лекарств, финансовое моделирование и задачи оптимизации. Например, они могут помочь нам создавать новые материалы, моделировать молекулярные взаимодействия или решать сложные логистические задачи.
 
-We're still in the early stages. Current quantum computers are noisy and require extremely cold temperatures to operate. But progress is accelerating. Within the next decade, we may see quantum computers tackling problems that would take classical computers millennia to solve.
+Мы все еще на ранних стадиях. Современные квантовые компьютеры шумные и требуют экстремально низких температур для работы. Но прогресс ускоряется. В течение следующего десятилетия мы можем увидеть, как квантовые компьютеры решают задачи, на которые классическим компьютерам потребовались бы тысячелетия.
 
-The quantum revolution is coming, and it's going to change computing as we know it.`,
+Квантовая революция приближается, и она изменит вычисления, какими мы их знаем.`,
   },
 ];
 

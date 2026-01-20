@@ -22,7 +22,7 @@ export function Header() {
           <div className="w-full max-w-md lg:max-w-lg">
             <div className="relative">
               <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-              <Input type="search" placeholder="Search transcriptions..." className="pl-9" />
+              <Input type="search" placeholder="Поиск транскрипций..." className="pl-9" />
             </div>
           </div>
         </div>
@@ -43,23 +43,23 @@ export function Header() {
                   <AvatarImage src="/placeholder.svg?height=32&width=32" />
                   <AvatarFallback>JD</AvatarFallback>
                 </Avatar>
-                <span className="hidden text-sm font-medium sm:inline">John Doe</span>
+                <span className="hidden text-sm font-medium sm:inline">Иван Иванов</span>
                 <ChevronDown className="h-4 w-4 text-muted-foreground" />
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-56">
               <DropdownMenuLabel>
                 <div className="flex flex-col space-y-1">
-                  <p className="text-sm font-medium">John Doe</p>
-                  <p className="text-xs text-muted-foreground">john.doe@example.com</p>
+                  <p className="text-sm font-medium">Иван Иванов</p>
+                  <p className="text-xs text-muted-foreground">ivan.ivanov@example.com</p>
                 </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Profile</DropdownMenuItem>
-              <DropdownMenuItem>Billing</DropdownMenuItem>
-              <DropdownMenuItem>Team</DropdownMenuItem>
+              <DropdownMenuItem>Профиль</DropdownMenuItem>
+              <DropdownMenuItem>Оплата</DropdownMenuItem>
+              <DropdownMenuItem>Команда</DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Log out</DropdownMenuItem>
+              <DropdownMenuItem>Выйти</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

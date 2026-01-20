@@ -141,7 +141,7 @@ export function AudioTranscriptionItem({ audio, isExpanded, onToggle }: AudioTra
 
             {/* Transcript */}
             <div className="rounded-lg bg-card p-5 shadow-sm">
-              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">Transcript</h4>
+              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">Транскрипция</h4>
               <div className="space-y-3 text-sm leading-relaxed text-foreground">
                 {audio.transcript.split("\n\n").map((paragraph, index) => (
                   <p key={index} className="text-pretty">

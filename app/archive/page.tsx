@@ -22,58 +22,55 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { useSearchParams } from "next/navigation"
-import { Suspense } from "react"
-import Loading from "./loading"
 
 const archivedItems = [
   {
     id: 1,
-    title: "Q3 Marketing Strategy Discussion",
+    title: "Обсуждение маркетинговой стратегии Q3",
     duration: "1:02:15",
-    archivedDate: "Dec 28, 2025",
-    originalDate: "Oct 15, 2025",
-    size: "48.2 MB",
+    archivedDate: "28 дек. 2025",
+    originalDate: "15 окт. 2025",
+    size: "48.2 МБ",
   },
   {
     id: 2,
-    title: "Product Launch Preparation",
+    title: "Подготовка к запуску продукта",
     duration: "45:30",
-    archivedDate: "Dec 20, 2025",
-    originalDate: "Sep 22, 2025",
-    size: "35.1 MB",
+    archivedDate: "20 дек. 2025",
+    originalDate: "22 сен. 2025",
+    size: "35.1 МБ",
   },
   {
     id: 3,
-    title: "Annual Review - Engineering Team",
+    title: "Годовой обзор - Инженерная команда",
     duration: "1:30:00",
-    archivedDate: "Dec 15, 2025",
-    originalDate: "Aug 30, 2025",
-    size: "72.8 MB",
+    archivedDate: "15 дек. 2025",
+    originalDate: "30 авг. 2025",
+    size: "72.8 МБ",
   },
   {
     id: 4,
-    title: "Customer Feedback Session - Beta Users",
+    title: "Сессия обратной связи - Бета-пользователи",
     duration: "52:18",
-    archivedDate: "Dec 10, 2025",
-    originalDate: "Jul 18, 2025",
-    size: "40.5 MB",
+    archivedDate: "10 дек. 2025",
+    originalDate: "18 июл. 2025",
+    size: "40.5 МБ",
   },
   {
     id: 5,
-    title: "Interview - Senior Developer Candidate",
+    title: "Интервью - Кандидат на позицию Senior Developer",
     duration: "38:45",
-    archivedDate: "Dec 5, 2025",
-    originalDate: "Jun 25, 2025",
-    size: "29.8 MB",
+    archivedDate: "5 дек. 2025",
+    originalDate: "25 июн. 2025",
+    size: "29.8 МБ",
   },
   {
     id: 6,
-    title: "Webinar Recording - AI Best Practices",
+    title: "Запись вебинара - Лучшие практики ИИ",
     duration: "1:15:22",
-    archivedDate: "Nov 28, 2025",
-    originalDate: "May 12, 2025",
-    size: "58.3 MB",
+    archivedDate: "28 ноя. 2025",
+    originalDate: "12 мая 2025",
+    size: "58.3 МБ",
   },
 ]
 
@@ -91,8 +88,8 @@ export default function ArchivePage() {
                 <Archive className="h-6 w-6 text-background" />
               </div>
               <div>
-                <h1 className="text-2xl font-semibold">Archive</h1>
-                <p className="text-muted-foreground">Manage your archived transcriptions</p>
+                <h1 className="text-2xl font-semibold">Архив</h1>
+                <p className="text-muted-foreground">Управляйте архивированными транскрипциями</p>
               </div>
             </div>
           </div>
@@ -106,7 +103,7 @@ export default function ArchivePage() {
                 </div>
                 <div>
                   <p className="text-2xl font-semibold">6</p>
-                  <p className="text-sm text-muted-foreground">Archived files</p>
+                  <p className="text-sm text-muted-foreground">Архивных файлов</p>
                 </div>
               </CardContent>
             </Card>
@@ -116,8 +113,8 @@ export default function ArchivePage() {
                   <FileAudio className="h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-semibold">284.7 MB</p>
-                  <p className="text-sm text-muted-foreground">Storage used</p>
+                  <p className="text-2xl font-semibold">284.7 МБ</p>
+                  <p className="text-sm text-muted-foreground">Использовано места</p>
                 </div>
               </CardContent>
             </Card>
@@ -127,8 +124,8 @@ export default function ArchivePage() {
                   <AlertCircle className="h-5 w-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-semibold">90 days</p>
-                  <p className="text-sm text-muted-foreground">Auto-delete policy</p>
+                  <p className="text-2xl font-semibold">90 дней</p>
+                  <p className="text-sm text-muted-foreground">Политика автоудаления</p>
                 </div>
               </CardContent>
             </Card>
@@ -138,16 +135,16 @@ export default function ArchivePage() {
           <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="relative flex-1 max-w-md">
               <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-              <Input placeholder="Search archived files..." className="pl-10" />
+              <Input placeholder="Поиск в архиве..." className="pl-10" />
             </div>
             <div className="flex items-center gap-2">
               <Button variant="outline" size="sm" className="gap-2 bg-transparent">
                 <RotateCcw className="h-4 w-4" />
-                Restore All
+                Восстановить все
               </Button>
               <Button variant="outline" size="sm" className="gap-2 text-destructive hover:text-destructive bg-transparent">
                 <Trash2 className="h-4 w-4" />
-                Empty Archive
+                Очистить архив
               </Button>
             </div>
           </div>
@@ -167,13 +164,13 @@ export default function ArchivePage() {
                       <span className="h-1 w-1 rounded-full bg-muted-foreground" />
                       <span>{item.size}</span>
                       <span className="h-1 w-1 rounded-full bg-muted-foreground" />
-                      <span>Archived {item.archivedDate}</span>
+                      <span>В архиве {item.archivedDate}</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <Button variant="outline" size="sm" className="gap-2 bg-transparent">
                       <RotateCcw className="h-4 w-4" />
-                      Restore
+                      Восстановить
                     </Button>
                     <DropdownMenu>
                       <DropdownMenuTrigger asChild>
@@ -184,12 +181,12 @@ export default function ArchivePage() {
                       <DropdownMenuContent align="end">
                         <DropdownMenuItem>
                           <RotateCcw className="mr-2 h-4 w-4" />
-                          Restore
+                          Восстановить
                         </DropdownMenuItem>
                         <DropdownMenuSeparator />
                         <DropdownMenuItem className="text-destructive">
                           <Trash2 className="mr-2 h-4 w-4" />
-                          Delete permanently
+                          Удалить навсегда
                         </DropdownMenuItem>
                       </DropdownMenuContent>
                     </DropdownMenu>
@@ -204,9 +201,9 @@ export default function ArchivePage() {
             <CardContent className="flex items-start gap-3 p-4">
               <AlertCircle className="h-5 w-5 shrink-0 text-muted-foreground" />
               <div className="text-sm">
-                <p className="font-medium">Archive retention policy</p>
+                <p className="font-medium">Политика хранения архива</p>
                 <p className="text-muted-foreground">
-                  Files in the archive will be automatically deleted after 90 days. Restore files to keep them permanently or upgrade your plan for extended archive storage.
+                  Файлы в архиве будут автоматически удалены через 90 дней. Восстановите файлы, чтобы сохранить их навсегда, или обновите тариф для расширенного хранения архива.
                 </p>
               </div>
             </CardContent>
@@ -215,8 +212,4 @@ export default function ArchivePage() {
       </div>
     </div>
   )
-}
-
-export function Loading() {
-  return null
 }

@@ -3,28 +3,28 @@ import { FileAudio, Clock, CheckCircle2, TrendingUp } from "lucide-react"
 export function StatsCards() {
   const stats = [
     {
-      name: "Total Recordings",
+      name: "Всего записей",
       value: "24",
       change: "+12%",
       trend: "up",
       icon: FileAudio,
     },
     {
-      name: "Total Duration",
-      value: "4h 32m",
+      name: "Общая длительность",
+      value: "4ч 32м",
       change: "+8%",
       trend: "up",
       icon: Clock,
     },
     {
-      name: "Transcribed",
+      name: "Транскрибировано",
       value: "18",
       change: "+4",
       trend: "up",
       icon: CheckCircle2,
     },
     {
-      name: "This Week",
+      name: "На этой неделе",
       value: "6",
       change: "+2",
       trend: "up",

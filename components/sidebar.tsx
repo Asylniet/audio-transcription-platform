@@ -11,12 +11,12 @@ export function Sidebar() {
   const pathname = usePathname()
 
   const navigation = [
-    { name: "Dashboard", href: "/", icon: Home },
-    { name: "Transcriptions", href: "/transcriptions", icon: FileAudio },
-    { name: "Upload", href: "/upload", icon: Upload },
-    { name: "Recent", href: "/recent", icon: Clock },
-    { name: "Archive", href: "/archive", icon: Archive },
-    { name: "Settings", href: "/settings", icon: Settings },
+    { name: "Главная", href: "/", icon: Home },
+    { name: "Транскрипции", href: "/transcriptions", icon: FileAudio },
+    { name: "Загрузить", href: "/upload", icon: Upload },
+    { name: "Недавние", href: "/recent", icon: Clock },
+    { name: "Архив", href: "/archive", icon: Archive },
+    { name: "Настройки", href: "/settings", icon: Settings },
   ]
 
   return (
@@ -79,13 +79,13 @@ export function Sidebar() {
           <div className="border-t border-border p-4">
             <div className="rounded-lg bg-muted p-3">
               <div className="mb-2 flex items-center justify-between text-sm">
-                <span className="text-muted-foreground">Storage</span>
-                <span className="font-medium">2.4 GB / 10 GB</span>
+                <span className="text-muted-foreground">Хранилище</span>
+                <span className="font-medium">2.4 ГБ / 10 ГБ</span>
               </div>
               <div className="h-2 overflow-hidden rounded-full bg-background">
                 <div className="h-full w-[24%] rounded-full bg-foreground" />
               </div>
-              <p className="mt-2 text-xs text-muted-foreground">24% of storage used</p>
+              <p className="mt-2 text-xs text-muted-foreground">Использовано 24% хранилища</p>
             </div>
           </div>
         </div>

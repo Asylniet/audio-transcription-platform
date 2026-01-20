@@ -14,8 +14,8 @@ export default function Home() {
         <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="mb-8">
-              <h1 className="mb-2 text-3xl font-semibold tracking-tight text-foreground">Transcriptions</h1>
-              <p className="text-muted-foreground">Manage and review your audio transcriptions</p>
+              <h1 className="mb-2 text-3xl font-semibold tracking-tight text-foreground">Транскрипции</h1>
+              <p className="text-muted-foreground">Управляйте и просматривайте ваши аудио транскрипции</p>
             </div>
 
             <StatsCards />

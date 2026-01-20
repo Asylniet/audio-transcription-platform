@@ -16,67 +16,67 @@ import {
 const recentItems = [
   {
     id: 1,
-    title: "Team Standup - January 15",
+    title: "Ежедневный стендап - 15 января",
     duration: "15:32",
-    date: "Today, 9:30 AM",
+    date: "Сегодня, 9:30",
     status: "completed",
-    type: "Meeting",
+    type: "Встреча",
   },
   {
     id: 2,
-    title: "Product Review Session",
+    title: "Обзор продукта",
     duration: "45:18",
-    date: "Today, 2:15 PM",
+    date: "Сегодня, 14:15",
     status: "completed",
-    type: "Meeting",
+    type: "Встреча",
   },
   {
     id: 3,
-    title: "Customer Interview - Sarah",
+    title: "Интервью с клиентом - Сара",
     duration: "32:45",
-    date: "Yesterday, 11:00 AM",
+    date: "Вчера, 11:00",
     status: "completed",
-    type: "Interview",
+    type: "Интервью",
   },
   {
     id: 4,
-    title: "Weekly Planning Podcast",
+    title: "Еженедельный подкаст по планированию",
     duration: "58:22",
-    date: "Yesterday, 4:30 PM",
+    date: "Вчера, 16:30",
     status: "processing",
-    type: "Podcast",
+    type: "Подкаст",
   },
   {
     id: 5,
-    title: "Voice Memo - Ideas",
+    title: "Голосовая заметка - Идеи",
     duration: "3:45",
-    date: "2 days ago",
+    date: "2 дня назад",
     status: "completed",
-    type: "Voice Note",
+    type: "Голосовая заметка",
   },
   {
     id: 6,
-    title: "Sales Call - Acme Corp",
+    title: "Звонок по продажам - Acme Corp",
     duration: "28:10",
-    date: "2 days ago",
+    date: "2 дня назад",
     status: "completed",
-    type: "Call",
+    type: "Звонок",
   },
   {
     id: 7,
-    title: "Lecture - Machine Learning Basics",
+    title: "Лекция - Основы машинного обучения",
     duration: "1:15:30",
-    date: "3 days ago",
+    date: "3 дня назад",
     status: "completed",
-    type: "Lecture",
+    type: "Лекция",
   },
   {
     id: 8,
-    title: "Podcast Episode 42 - Tech Trends",
+    title: "Подкаст Эпизод 42 - Технологические тренды",
     duration: "52:18",
-    date: "4 days ago",
+    date: "4 дня назад",
     status: "completed",
-    type: "Podcast",
+    type: "Подкаст",
   },
 ]
 
@@ -94,8 +94,8 @@ export default function RecentPage() {
                 <Clock className="h-6 w-6 text-background" />
               </div>
               <div>
-                <h1 className="text-2xl font-semibold">Recent Activity</h1>
-                <p className="text-muted-foreground">Your recently transcribed and accessed files</p>
+                <h1 className="text-2xl font-semibold">Недавняя активность</h1>
+                <p className="text-muted-foreground">Ваши недавно транскрибированные и открытые файлы</p>
               </div>
             </div>
           </div>
@@ -104,11 +104,11 @@ export default function RecentPage() {
           <div className="mb-8">
             <h2 className="mb-4 flex items-center gap-2 text-sm font-medium text-muted-foreground">
               <Calendar className="h-4 w-4" />
-              Today
+              Сегодня
             </h2>
             <div className="space-y-3">
               {recentItems
-                .filter((item) => item.date.includes("Today"))
+                .filter((item) => item.date.includes("Сегодня"))
                 .map((item) => (
                   <Card key={item.id} className="transition-colors hover:bg-muted/50">
                     <CardContent className="flex items-center gap-4 p-4">
@@ -120,7 +120,7 @@ export default function RecentPage() {
                           <h3 className="truncate font-medium">{item.title}</h3>
                           {item.status === "processing" && (
                             <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700 dark:bg-amber-900/30 dark:text-amber-400">
-                              Processing
+                              Обработка
                             </span>
                           )}
                         </div>
@@ -145,16 +145,16 @@ export default function RecentPage() {
                           <DropdownMenuContent align="end">
                             <DropdownMenuItem>
                               <Download className="mr-2 h-4 w-4" />
-                              Download
+                              Скачать
                             </DropdownMenuItem>
                             <DropdownMenuItem>
                               <Share2 className="mr-2 h-4 w-4" />
-                              Share
+                              Поделиться
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
                             <DropdownMenuItem className="text-destructive">
                               <Trash2 className="mr-2 h-4 w-4" />
-                              Delete
+                              Удалить
                             </DropdownMenuItem>
                           </DropdownMenuContent>
                         </DropdownMenu>
@@ -169,11 +169,11 @@ export default function RecentPage() {
           <div className="mb-8">
             <h2 className="mb-4 flex items-center gap-2 text-sm font-medium text-muted-foreground">
               <Calendar className="h-4 w-4" />
-              Yesterday
+              Вчера
             </h2>
             <div className="space-y-3">
               {recentItems
-                .filter((item) => item.date.includes("Yesterday"))
+                .filter((item) => item.date.includes("Вчера"))
                 .map((item) => (
                   <Card key={item.id} className="transition-colors hover:bg-muted/50">
                     <CardContent className="flex items-center gap-4 p-4">
@@ -185,7 +185,7 @@ export default function RecentPage() {
                           <h3 className="truncate font-medium">{item.title}</h3>
                           {item.status === "processing" && (
                             <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700 dark:bg-amber-900/30 dark:text-amber-400">
-                              Processing
+                              Обработка
                             </span>
                           )}
                         </div>
@@ -210,16 +210,16 @@ export default function RecentPage() {
                           <DropdownMenuContent align="end">
                             <DropdownMenuItem>
                               <Download className="mr-2 h-4 w-4" />
-                              Download
+                              Скачать
                             </DropdownMenuItem>
                             <DropdownMenuItem>
                               <Share2 className="mr-2 h-4 w-4" />
-                              Share
+                              Поделиться
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
                             <DropdownMenuItem className="text-destructive">
                               <Trash2 className="mr-2 h-4 w-4" />
-                              Delete
+                              Удалить
                             </DropdownMenuItem>
                           </DropdownMenuContent>
                         </DropdownMenu>
@@ -234,11 +234,11 @@ export default function RecentPage() {
           <div>
             <h2 className="mb-4 flex items-center gap-2 text-sm font-medium text-muted-foreground">
               <Calendar className="h-4 w-4" />
-              Earlier this week
+              Ранее на этой неделе
             </h2>
             <div className="space-y-3">
               {recentItems
-                .filter((item) => item.date.includes("days ago"))
+                .filter((item) => item.date.includes("дня назад"))
                 .map((item) => (
                   <Card key={item.id} className="transition-colors hover:bg-muted/50">
                     <CardContent className="flex items-center gap-4 p-4">
@@ -270,16 +270,16 @@ export default function RecentPage() {
                           <DropdownMenuContent align="end">
                             <DropdownMenuItem>
                               <Download className="mr-2 h-4 w-4" />
-                              Download
+                              Скачать
                             </DropdownMenuItem>
                             <DropdownMenuItem>
                               <Share2 className="mr-2 h-4 w-4" />
-                              Share
+                              Поделиться
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
                             <DropdownMenuItem className="text-destructive">
                               <Trash2 className="mr-2 h-4 w-4" />
-                              Delete
+                              Удалить
                             </DropdownMenuItem>
                           </DropdownMenuContent>
                         </DropdownMenu>

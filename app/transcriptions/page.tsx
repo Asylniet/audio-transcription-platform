@@ -27,8 +27,8 @@ export default function TranscriptionsPage() {
                 <FileAudio className="h-6 w-6 text-background" />
               </div>
               <div>
-                <h1 className="text-2xl font-semibold">All Transcriptions</h1>
-                <p className="text-muted-foreground">Browse and manage all your audio transcriptions</p>
+                <h1 className="text-2xl font-semibold">Все транскрипции</h1>
+                <p className="text-muted-foreground">Просматривайте и управляйте всеми вашими аудио транскрипциями</p>
               </div>
             </div>
           </div>
@@ -37,12 +37,12 @@ export default function TranscriptionsPage() {
           <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="relative flex-1 max-w-md">
               <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-              <Input placeholder="Search transcriptions..." className="pl-10" />
+              <Input placeholder="Поиск транскрипций..." className="pl-10" />
             </div>
             <div className="flex items-center gap-2">
               <Button variant="outline" size="sm" className="gap-2 bg-transparent">
                 <Filter className="h-4 w-4" />
-                Filter
+                Фильтр
               </Button>
               <div className="flex items-center rounded-lg border border-border p-1">
                 <Button
@@ -67,7 +67,7 @@ export default function TranscriptionsPage() {
 
           {/* Transcription Categories */}
           <div className="mb-6 flex flex-wrap gap-2">
-            {["All", "Podcasts", "Interviews", "Meetings", "Voice Notes", "Lectures"].map((category, index) => (
+            {["Все", "Подкасты", "Интервью", "Встречи", "Голосовые заметки", "Лекции"].map((category, index) => (
               <Button
                 key={category}
                 variant={index === 0 ? "default" : "outline"}
