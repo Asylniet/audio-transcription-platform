@@ -2,19 +2,21 @@
 
 import { Home, FileAudio, Settings, Upload, Clock, Archive, Menu } from "lucide-react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 
 export function Sidebar() {
   const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname()
 
   const navigation = [
-    { name: "Dashboard", href: "#", icon: Home, current: true },
-    { name: "Transcriptions", href: "#", icon: FileAudio, current: false },
-    { name: "Upload", href: "#", icon: Upload, current: false },
-    { name: "Recent", href: "#", icon: Clock, current: false },
-    { name: "Archive", href: "#", icon: Archive, current: false },
-    { name: "Settings", href: "#", icon: Settings, current: false },
+    { name: "Dashboard", href: "/", icon: Home },
+    { name: "Transcriptions", href: "/transcriptions", icon: FileAudio },
+    { name: "Upload", href: "/upload", icon: Upload },
+    { name: "Recent", href: "/recent", icon: Clock },
+    { name: "Archive", href: "/archive", icon: Archive },
+    { name: "Settings", href: "/settings", icon: Settings },
   ]
 
   return (
@@ -55,12 +57,13 @@ export function Sidebar() {
           <nav className="flex-1 space-y-1 px-3 py-4">
             {navigation.map((item) => {
               const Icon = item.icon
+              const isActive = pathname === item.href
               return (
                 <Link
                   key={item.name}
                   href={item.href}
                   className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
-                    item.current
+                    isActive
                       ? "bg-muted text-foreground"
                       : "text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}

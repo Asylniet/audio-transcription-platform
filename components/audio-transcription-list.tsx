@@ -19,7 +19,7 @@ const audioFiles: AudioFile[] = [
     title: "Клиент в сумме за 50 тысяч",
     duration: "00:14",
     date: "12.12.2025",
-    audioUrl: "/1.mp3",
+    audioUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/public/1.mp3",
     description: "Еще один клиент от друга",
     transcript: `аа короче бізде бір клиент бар менің досым ғой баяғы айрат деген он короче в сумме сейчас за 50 тысяч продает наш функционал короче ол бізге 15 мың и за разработку деді да 50 мың теңге алады бізге қосу үшін деп ші`,
   },
@@ -28,7 +28,7 @@ const audioFiles: AudioFile[] = [
     title: "Подключение трех магазинов",
     duration: "00:06",
     date: "11.12.2025",
-    audioUrl: "/2.mp3",
+    audioUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/public/2.mp3",
     description: "Подключение 3 магазинов с пользой",
     transcript: `сүйтіп бізге короче 3 магазин қосты кажется есть  походу  хоть какая-то польза в этом`,
   },
@@ -38,7 +38,7 @@ const audioFiles: AudioFile[] = [
     duration: "9:47",
     date: "11.12.2025",
     audioUrl:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/public/1.mp3",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/BPq2FAASBMdJO6wvf7Be-r/public/1.mp3",
     description: "О поступлении заказа на разработку сайта",
     transcript: `Hello, I'm Emma Williams, a designer and minimalism advocate. Today I want to share my thoughts on minimalist design and why I believe it's more relevant than ever.
 
@@ -58,7 +58,7 @@ Whether in graphic design, product design, or interior spaces, minimalist princi
     duration: "18:15",
     date: "February 28, 2024",
     audioUrl:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/public/2.mp3",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/git-blob/prj_DCs1b45rqyYp03XCgJ5238zj0RIo/4dkr_GoIyHKbeAMy26AIao/public/2.mp3",
     description:
       "An accessible introduction to quantum computing and its potential applications",
     transcript: `Hi everyone, I'm Dr. James Park, and I specialize in quantum computing. I know quantum physics can sound intimidating, but I want to make this as accessible as possible.
